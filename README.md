@@ -1,5 +1,7 @@
 # Parallel-Document-Frequency-Index
 
+The repository contains solution to one of the assignments of the course Parallel Computing in BITS Pilani.
+
 The problem statement is given as below:
 
 Use divide-and-conquer to design a parallel (shared memory) algorithm for the following problem:
