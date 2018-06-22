@@ -9,10 +9,10 @@ Use divide-and-conquer to design a parallel (shared memory) algorithm for the fo
 2. Implement your parallel algorithm for a) using OpenMP in C/C++. [Hint: Refer to man pages for: readdir(), struct dirent, and fstat() . End of Hint.]
 
 3. Measure the performance for different input directories by varying the following parameters:
- maximum depth (4, 16, 64)
- average depth (2, 8, 32)
- average branching factor (1.x, 4, 16, 64, 256)
- total number of files (10 2 , 10 4 , 10 6 , 10 8 )
+a) maximum depth (4, 16, 64)
+b) average depth (2, 8, 32)
+c) average branching factor (1.x, 4, 16, 64, 256)
+d) total number of files (10^2, 10^4, 10^6, 10^8)
 For each input measure the performance for p = 1, 2, .. 2 q where p is the number of cores used.
 
 The design, measurements and inferences are summarized in the design document.
