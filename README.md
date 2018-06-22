@@ -4,7 +4,8 @@ The problem statement is given as below:
 
 Use divide-and-conquer to design a parallel (shared memory) algorithm for the following problem:
 
-1. Given a file system and a root directory on Unix, traverse the tree and (i) extract words from each text file, (ii) compute the document frequency (DF) of each word, and (iii) determine the words with the K highest DF. Document frequency of a word is defined as the number of documents (i.e. files) in which that word occurs.
+1. Given a file system and a root directory on Unix, traverse the tree and (i) extract words from each text file, (ii) compute the document frequency (DF) of each word, and (iii) determine the words with the K highest DF. 
+Document frequency of a word is defined as the number of documents (i.e. files) in which that word occurs.
 
 2. Implement your parallel algorithm for a) using OpenMP in C/C++. [Hint: Refer to man pages for: readdir(), struct dirent, and fstat() . End of Hint.]
 
